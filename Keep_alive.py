@@ -6,7 +6,7 @@ def keep_alive():
   while True:
     with open("keep_alive.txt", "a") as f:
       f.write(" ")
-    time.sleep(1)
+    time.sleep(0)
 
 if __name__ == "__main__":
   keep_alive()
